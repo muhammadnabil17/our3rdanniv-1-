@@ -36,18 +36,21 @@ function Card() {
       <div id="card" className={`${cardClass}`} onClick={toggleCard}>     
         <div id="card-inside">
           <div className="wrap">
-            <p>Happy Birthday, John Doe!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus dolore recusandae eveniet dicta. Corrupti.</p>
+            <p>Happy Birthday, Feyiiii</p>
+            <p>Wishing you alllllll the best from your handsome boyfriend :P hewhewhewhewhe</p>
             <p>
               I hope you have a very blessed birthday!
             </p>
             <p>
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, cum.
+             this is my message for you my dearest lovely prettiest girlfriend in the whole world!!!
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              which is that we together could be more mature to face a problem and solve it together isntantly and you're getting 
+             so much prettier ngl, i still get a butterfly feelings when im around you but u didn't believe what i said hmph!
+            and i hope this website you could keep it forever (i really solve it all by myself whats wrong with this code errors etc lmaoo *joke*)
+          btw love youuuu
             </p>
-            <p className="signed">Jane Doe</p>
+            <p className="signed">Felicia Jessica</p>
           </div>
         </div>
 
