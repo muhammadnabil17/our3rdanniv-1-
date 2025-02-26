@@ -50,7 +50,7 @@ function Card() {
             and i hope this website you could keep it forever (i really solve it all by myself whats wrong with this code errors etc lmaoo *joke*)
           btw love youuuu
             </p>
-            <p className="signed">Felicia Jessica</p>
+            <p className="signed"></p>
           </div>
         </div>
 
