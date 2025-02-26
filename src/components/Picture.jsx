@@ -6,9 +6,9 @@ import SectionWrapper from './SectionWrapper';
 // Add your own images by putting them in the assets folder and import them.
 const images = [
  picture,
- picture1,
- picture2,
- picture3,
+ picture,
+ picture,
+ picture,
 
 ];
 function Picture() {
