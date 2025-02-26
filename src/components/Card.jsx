@@ -50,13 +50,13 @@ function Card() {
             and i hope this website you could keep it forever (i really solve it all by myself whats wrong with this code errors etc lmaoo *joke*)
           btw love youuuu
             </p>
-            <p className="signed"></p>
           </div>
         </div>
 
         <div id="card-front">
           <div className="wrap">
-            <h1>Happy Birthday!</h1>
+            <h1>Happy Birthday
+Felicia Jessica!</h1>
           </div>
         </div>
     </div>
