@@ -1,6 +1,6 @@
 import bg from './bg.jpg'
 
-import picture from './picture1.png'
+import picture from './picture1feli.jpg'
 
 import confetti from './confetti.gif'
 
