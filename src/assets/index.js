@@ -10,7 +10,7 @@ import CakeSVG from './svg/CakeSVG'
 
 export {
     bg,
-    picture,
+    picture1feli,
     confetti,
     CakeSVG
 }
