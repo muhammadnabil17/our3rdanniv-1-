@@ -8,7 +8,7 @@ function Cake() {
   // You may want to tweak these audio codes more to your liking.
   const [candlesBlownOut, setCandlesBlownOut] = useState(false);
   const [micPermissionGranted, setMicPermissionGranted] = useState(false);
-  const [handleClick]
+  const [handleClick] = useState(false);
 
   useEffect(() => {
     let audioContext;
