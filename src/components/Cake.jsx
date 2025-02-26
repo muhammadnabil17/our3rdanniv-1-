@@ -5,10 +5,8 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 function Cake() {
-  // You may want to tweak these audio codes more to your liking.
   const [candlesBlownOut, setCandlesBlownOut] = useState(false);
   const [micPermissionGranted, setMicPermissionGranted] = useState(false);
- 
 
   useEffect(() => {
     let audioContext;
@@ -18,7 +16,7 @@ function Cake() {
 
     async function initBlowDetection() {
       try {
-        const stream = await navigator.mediaDevices.getUserMedia({
+        const stream = await navigator.mediaDevices.getUser Media({
           audio: true,
         });
         audioContext = new (window.AudioContext || window.AudioContext)();
@@ -74,6 +72,11 @@ function Cake() {
     };
   }, []);
 
+  // Function to handle candle click
+  const handleCandleClick = () => {
+    setCandlesBlownOut(true);
+  };
+
   return (
     <>
       <div className="bg-black/80 h-screen w-screen flex items-center justify-center overflow-hidden relative">
@@ -116,7 +119,7 @@ function Cake() {
         )}
         <div className="relative z-10">
           <div className="absolute -top-48 left-1/2 transform -translate-x-1/2">
-            <div className="candle">
+            <div className="candle" onClick={handleCandleClick}>
               {!candlesBlownOut && (
                 <div>
                   <div className="absolute -top-[200px] text-gray-200 text-3xl">
