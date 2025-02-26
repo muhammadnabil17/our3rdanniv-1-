@@ -6,7 +6,8 @@ import SectionWrapper from './SectionWrapper';
 // Add your own images by putting them in the assets folder and import them.
 const images = [
  picture,
- picture1,
+ // picture1,  // Comment out this line and see if Home.jsx works
+ picture,
  picture,
  picture,
 
