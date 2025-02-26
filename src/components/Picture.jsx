@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 import SectionWrapper from './SectionWrapper';
 // Add your own images by putting them in the assets folder and import them.
 const images = [
- picture,
- picture,
- picture,
- picture,
+ picture1,
+ picture2,
+ picture3,
+ picture4,
 
 ];
 function Picture() {
