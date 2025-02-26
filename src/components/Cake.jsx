@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import "../assets/css/cake.css";
+import { CakeSVG, confetti } from "../assets";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CakeSVG, confetti } from "../assets";
