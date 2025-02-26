@@ -13,28 +13,6 @@ function Cake() {
   };
 
 
-  return (
-    <div 
-      className="bg-black/80 h-screen w-screen flex items-center justify-center overflow-hidden relative"
-      onClick={handleCandleClick} // Lilin padam saat klik
-    >
-      {candlesBlownOut && (
-        <div
-          className="absolute inset-0 bg-cover bg-center z-50"
-          style={{ backgroundImage: `url(${confetti})` }}
-        />
-      )}
-
-      {candlesBlownOut && (
-        <motion.div
-          className="absolute top-20 text-white text-3xl font-bold z-50"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
-    </div>
-  );
-}
-
   useEffect(() => {
     let audioContext;
     let analyser;
