@@ -69,7 +69,7 @@ function Card() {
         animate={{ opacity: 1, visibility: "visible" }}
         transition={{duration: 1.2}}> 
         <Link to ='/cake'>
-        <p className="-mt-[4rem] px-7 py-3 bg-customBlue text-white font-medium text-base rounded-full hover:bg-blue-600">
+        <p className="-mt-[4rem] px-7 py-1 bg-customBlue text-white font-medium text-base rounded-full hover:bg-blue-600">
             Next Page
           </p>
         </Link>
