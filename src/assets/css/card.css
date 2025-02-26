@@ -35,7 +35,7 @@
       perspective: 3000px;
       position: relative;
       margin-bottom: 5rem;
-      width: 350px;
+      width: 3500px;
   }
   
   #card h1 {
@@ -152,7 +152,7 @@
     max-width: 500px;
     margin: 40px auto;
     font-size: 14px;
-    line-height: 3;
+    line-height: 1.6;
     color: #888;
     text-align: center;
   }
