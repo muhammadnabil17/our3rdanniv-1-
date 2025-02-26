@@ -79,10 +79,6 @@ function Cake() {
 
   return (
     <>
-      <div 
-  className="bg-black/80 h-screen w-screen flex items-center justify-center overflow-hidden relative"
-  onClick={handleCandleClick} // Klik di mana saja untuk mematikan lilin
->
       <div className="bg-black/80 h-screen w-screen flex items-center justify-center overflow-hidden relative">
         {candlesBlownOut && (
           <div
