@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { picture, picture1 } from '../assets';
+import { picture, picture1, picture2, picture3 } from '../assets';
 import { Link } from 'react-router-dom'; 
 import SectionWrapper from './SectionWrapper';
 // Add your own images by putting them in the assets folder and import them.
 const images = [
  picture,
  picture1,
- picture,
- picture,
+ picture2,
+ picture3,
 
 ];
 function Picture() {
