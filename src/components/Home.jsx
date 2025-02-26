@@ -12,9 +12,9 @@ function Home() {
 
   const handleClick = () => {
     if (visibleCount < sentences.length) {
-      setVisibleCount(visibleCount + 1)
+      setVisibleCount(visibleCount + 4)
     } else {
-      navigate('/picture')
+      navigate('/pictures')
     }
   }
   return (
