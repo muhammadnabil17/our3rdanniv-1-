@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import "../assets/css/cake.css";
-import { CakeSVG, confetti } from "../assets";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CakeSVG, confetti } from "../assets";
@@ -10,7 +8,7 @@ function Cake() {
 
   // Fungsi untuk mematikan lilin saat diklik
   const handleCandleClick = () => {
-    setCandlesBlownOut(true);
+    setCandlesBlownOut(false);
   };
 
   return (
