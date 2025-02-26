@@ -8,7 +8,7 @@
   }
   
   #card, #card-front, #card-inside {
-    height: 480px;
+    height: 500px;
   }
   
   .wrap {
@@ -35,7 +35,7 @@
       perspective: 3000px;
       position: relative;
       margin-bottom: 5rem;
-      width: 3500px;
+      width: 350px;
   }
   
   #card h1 {
