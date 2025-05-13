@@ -36,19 +36,17 @@ function Card() {
       <div id="card" className={`${cardClass}`} onClick={toggleCard}>     
         <div id="card-inside">
           <div className="wrap">
-            <p>Happy Birthday, Feyiiii</p>
-            <p>Wishing you alllllll the best from your handsome boyfriend :P hewhewhewhewhe</p>
+            <p>Happy 3rd Anniversary, My Love ❤</p>
+            <p>Three years ago, i never imagined how much someone could mean to me until you came into my life. 
+               every day with you has been a blessing, a journey full of laughter, growth, support, and love. we've faced ups and downs, but through it all, 
+               we've stayed strong  side by side, hand in hand.
+           </p>
             <p>
-              I hope you have a very blessed birthday!
+              Thank you for always being there for me, for loving me at my best and my worst, and for making life so much more beautiful just by being in it.
+              i’m proud of everything we’ve built together, and i’m excited for everything that’s still to come.
             </p>
             <p>
-             this is my message for you my dearest lovely prettiest girlfriend in the whole world!!!
-            </p>
-            <p>
-              which is that we together could be more mature to face a problem and solve it together isntantly and you're getting 
-             so much prettier ngl, i still get a butterfly feelings when im around you but u didn't believe what i said hmph!
-            and i hope this website you could keep it forever (i really solve it all by myself whats wrong with this code errors etc lmaoo *joke*)
-          btw love youuuu
+             Here’s a cake to congrats our three amazing years, and to forever more. i love you , always
             </p>
           </div>
         </div>
