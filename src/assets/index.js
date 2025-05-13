@@ -16,10 +16,6 @@ import picture6 from './foto7.jpg'
 
 import picture7 from './foto8.jpg'
 
-
-
-
-
 import confetti from './confetti.gif'
 
 import CakeSVG from './svg/CakeSVG'
