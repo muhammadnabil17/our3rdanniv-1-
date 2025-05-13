@@ -104,9 +104,9 @@ function Cake() {
                   stroke="white"
                 />
               </defs>
-              <text fontSize="40" fill="white" textAnchor="middle">
-                <textPath href="#curve" startOffset="80%">
-                  Happy Anniversaryyy!
+              <text fontSize="30" fill="white" textAnchor="middle">
+                <textPath href="#curve" startOffset="50%">
+                  Happy Anniversary!
                 </textPath>
               </text>
             </svg>
