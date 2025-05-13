@@ -9,21 +9,26 @@ function Present() {
           Click the box to see your gifts!
         </h1>
       </div>
-      <div id="raffle-1" className="entry raffle raffle-1">
-  <div className="no-scale">
-    <span className="ticket-text">Free<br/> Teddy Bear</span>
-  </div>
-</div>
-<div id="raffle-2" className="entry raffle raffle-2">
-  <div className="no-scale">
-    <span className="ticket-text">Free<br/> A Bouquet</span>
-  </div>
-</div>
-<div id="raffle-3" className="entry raffle raffle-3">
-  <div className="no-scale">
-    <span className="ticket-text">Free<br/> Fine Dining</span>
-  </div>
-</div>
+      <div className="birthday-gift">
+        <input id='click' type='checkbox'/>
+        <label className='gift' htmlFor='click'>
+          <div className="gift-top"></div>
+          <div className="gift-bottom"></div>
+          <div id="raffle-red" className="entry raffle raffle-1">
+            <div className="no-scale">
+              <span className="ticket-text">Free<br/> Teddy Bear </span>
+            </div>
+          </div>
+          <div id="raffle-red" className="entry raffle raffle-2">
+            <div className="no-scale">
+              <span className="ticket-text">Free<br/> A Bouquet </span>
+            </div>
+          </div>
+          <div id="raffle-red" className="entry raffle raffle-3">
+            <div className="no-scale">
+              <span className="ticket-text">Free<br/> Fine Dining </span>
+            </div>
+          </div>
         </label>
       </div>
     </SectionWrapper>
